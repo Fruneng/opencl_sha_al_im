@@ -1,9 +1,8 @@
 /* 
    This code was largely inspired by 
-   pyrit opencl kernel sha1 routines, royger's sha1 sample,
-   and md5_opencl_kernel.cl inside jtr.
-   Copyright 2011 by Samuele Giovanni Tonon 
-   samu at linuxasylum dot net
+   pyrit opencl kernel sha1 routines.
+   Copyright 2011 by chucheng 
+   zunceng at gmail dot com
    This program comes with ABSOLUTELY NO WARRANTY; express or
    implied .
    This is free software, and you are welcome to redistribute it
