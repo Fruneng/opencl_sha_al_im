@@ -70,7 +70,7 @@ void crypt_all()
 	//printf("%s\n",saved_plain);
 	ret = clEnqueueWriteBuffer(command_queue, data_info, CL_TRUE, 0, sizeof(unsigned int) * 3, datai, 0, NULL, NULL);
 	ret = clEnqueueWriteBuffer(command_queue, buffer_keys, CL_TRUE, 0, SHA256_PLAINTEXT_LENGTH * kpc, saved_plain, 0, NULL, NULL);
-	printf("%s\n",buffer_keys);
+	// printf("%s\n",buffer_keys);
 	ret = clEnqueueNDRangeKernel(command_queue, kernel, 1, NULL, &global_work_size, &local_work_size, 0, NULL, NULL);
 
 	ret = clFinish(command_queue);
